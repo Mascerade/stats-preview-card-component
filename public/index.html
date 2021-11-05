@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full w-full">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="build/tailwind.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
@@ -14,17 +14,33 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="h-full w-full bg-darkblue">
+  <div class="h-full w-full flex">
+    <div class="h-5/6 w-4/6 lg:h-1/2 lg:w-4/5 m-auto flex flex-col-reverse lg:flex-row align-middle">
+      <div class="lg:w-1/2 pt-24 pb-24 pl-20 pr-36 bg-desatblue rounded-l-md">
+        <h1 class="font-Inter font-bold text-white text-3xl mb-5">Get <span class="text-violet">insights</span> that help your business grow.</h1>
+        <h3 class="font-Inter text-white text-opacity-75 mb-24">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</h3>
+        <div class="h-3/4 lg:h-full w-full flex flex-row justify-between">
+          <div>
+            <h2 class="text-lg font-Inter font-bold text-white">10k+</h2>
+            <p class="text-xs font-Inter text-white text-opacity-60 uppercase">Companies</p>
+          </div>
+          <div>
+            <h2 class="text-lg font-Inter font-bold text-white">314</h2>
+            <p class="text-xs font-Inter text-white text-opacity-60 uppercase">Templates</p>
+          </div>
+          <div>
+            <h2 class="text-lg font-Inter font-bold text-white">12m+</h2>
+            <p class="text-xs font-Inter text-white text-opacity-60 uppercase">Queries</p>
+          </div>
+        </div>
+      </div>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+      <div class="h-1/4 lg:h-full lg:w-1/2 bg-violet bg-opacity-80 rounded-r-md">
+        <img class="h-full w-full object-cover opacity-60" src="images/image-header-desktop.jpg" alt="People working together">
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
