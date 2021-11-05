@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./docs/solution-desktop.png" style="display: block; margin: 0 auto;" />
-<img src="./docs/solution-mobile.png"  style="display: block; margin: 0 auto;" />
+<img src="./imgs/solution-desktop.png" style="display: block; margin: 0 auto;" />
+<img src="./imgs/solution-mobile.png"  style="display: block; margin: 0 auto;" />
 
 ### Links
 
