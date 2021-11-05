@@ -1,0 +1,24 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mascerade/stats-preview-card-component.git"
+  },
+  "author": "Jason Acheampong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mascerade/stats-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/Mascerade/stats-preview-card-component#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
