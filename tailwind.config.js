@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [
     './public/**/*.html'
@@ -9,6 +11,10 @@ module.exports = {
         Inter: ['Inter'],
         LexendDeca: ['Lexend Deca'],
       }
+    },
+    screens: {
+      'xs': '450px',
+      ...defaultTheme.screens,
     },
     colors: {
       darkblue: '#090b1a',
